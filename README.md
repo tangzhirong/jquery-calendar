@@ -38,17 +38,17 @@ Usage
     color: white;
 }
 
-.zidingyi_month{
+### .zidingyi_month{
     background-color: #afd9ee;
     color: #080808;
 }
 
-.zidingyi_week{
+### .zidingyi_week{
     background-color: #269abc;
     color: #080808;
 }
 
-.zidingyi_content{
+### .zidingyi_content{
     background-color: #afd9ee;
     color: #080808;
 }
