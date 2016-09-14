@@ -1,8 +1,6 @@
 # jquery-calendar
 一个基于jquery、bootstrap的可自定义样式的日历组件
 
-### 支持前后翻页
-
 ### 支持日期选择
 
 ### 支持皮肤定制
