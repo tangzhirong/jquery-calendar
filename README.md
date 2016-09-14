@@ -32,8 +32,9 @@ Usage
 ### css：
   可定制自定义皮肤，类名为styleClass+‘_日历部位’：
   
-### /**********定制自定义皮肤**********/
-### .zidingyi_today {
+ /**********定制自定义皮肤**********/
+###
+.zidingyi_today {
       background-color: #269abc;
       color: white;
 }
