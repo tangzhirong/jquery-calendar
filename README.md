@@ -14,7 +14,7 @@ Usage
 =======================
 ### html：
   在需要添加日历组件的父元素中添加“id=my-calendar”属性即可，在calendar构造器中传入自选参数：
-  <div class="col-md-6" id="my-calendar">
+### <div class="col-md-6" id="my-calendar">
                 <script>
                     $(document).ready(function(){
                        $('#my-calendar').calendar({
@@ -26,7 +26,7 @@ Usage
                         });
                     })
                 </script>
-</div>
+   </div>
    
 ### css：
   可定制自定义皮肤，类名为styleClass+‘_日历部位’：
