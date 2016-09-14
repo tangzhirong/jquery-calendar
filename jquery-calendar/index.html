@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>日历组件</title>
+    <link href="./bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="style/index.css" rel="stylesheet" type="text/css">
+    <script rel="script" type="application/javascript" src="jquery-3.1.0.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6" id="my-calendar">
+                <script>
+                    $(document).ready(function(){
+                       $('#my-calendar').calendar({
+                           cell_border:false,    //显示单元格边框
+                           styleClass:'zidingyi',      //定制皮肤类名
+                           show_days:true,     //显示星期几这一栏
+                           show_today:true,    //显示今天的日期这一栏
+                           today:true,      //对今天的日期特别标注
+                        });
+                    })
+                </script>
+            </div>
+            <div class="col-md-3"></div>
+
+        </div>
+    </div>
+    <script src="scripts/calendar.js"></script>
+</body>
+</html>

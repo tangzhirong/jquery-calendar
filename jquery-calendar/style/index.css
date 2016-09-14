@@ -1,0 +1,65 @@
+/*****************公共样式*****************/
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family:"Microsoft Yahei";
+}
+
+.container-fluid{
+    margin-top: 30px;
+}
+
+/***************日历样式*************/
+
+th,td{
+    text-align: center;
+    cursor: pointer;
+}
+
+.today-header{
+    color: white;
+}
+
+.logo{
+    background: url("../images/calendar.png") no-repeat;
+    background-size: 50px 50px;
+    background-position: center;
+}
+
+/************标注**************/
+.mark_today{
+    background-color: #d9edf7;
+    background-clip:content-box;
+    border-radius: 10px;
+}
+
+.mark_choose{
+    background-color: #d0e9c6;
+    background-clip:content-box;
+    border-radius: 10px;
+}
+
+/**********定制自定义皮肤**********/
+
+.zidingyi_today {
+    background-color: #269abc;
+    color: white;
+}
+
+.zidingyi_month{
+    background-color: #afd9ee;
+    color: #080808;
+}
+
+.zidingyi_week{
+    background-color: #269abc;
+    color: #080808;
+}
+
+.zidingyi_content{
+    background-color: #afd9ee;
+    color: #080808;
+}
