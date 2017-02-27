@@ -1,21 +1,15 @@
 # jquery-calendar
 一个基于jquery、bootstrap的可自定义样式的日历组件
-
-### 支持日期选择
-
-### 支持皮肤定制
-
-### 支持可选日历属性
-
-
-默认样式
-========================
- ![image](https://github.com/tangzhirong/jquery-calendar/blob/master/demo2.png)
- 
-自定义皮肤
-=======================
 ![image](https://github.com/tangzhirong/jquery-calendar/blob/master/demo1.png)
 
+### 支持日期选择
+ ![image](https://github.com/tangzhirong/jquery-calendar/blob/master/demo2.png)
+ ![image](https://github.com/tangzhirong/jquery-calendar/blob/master/demo3.png)
+ 
+### 支持皮肤定制
+ ![image](https://github.com/tangzhirong/jquery-calendar/blob/master/demo4.png)
+ 
+### 支持可选日历属性
 
 Usage
 =======================
