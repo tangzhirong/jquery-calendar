@@ -4,7 +4,6 @@
 
 ### 支持日期选择
  ![image](https://github.com/tangzhirong/jquery-calendar/blob/master/demo2.png)
- ![image](https://github.com/tangzhirong/jquery-calendar/blob/master/demo3.png)
  
 ### 支持皮肤定制
  ![image](https://github.com/tangzhirong/jquery-calendar/blob/master/demo4.png)
