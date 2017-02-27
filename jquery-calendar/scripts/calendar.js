@@ -127,6 +127,18 @@ $.fn.calendar = function(options){
                 dayNum++;
                 if(dayNum >= firstDay && days<daysOfMonth){
                     days++;
+                    //双击事件绑定
+                    dowTd.on('dblclick',function(num){
+                        return function(){
+                            $('.mark_choose').removeClass('mark_choose');
+                            if(confirm("确定选择日期："+nowObj.year+"年"+nowObj.month+"月"+num+"日？")){
+                                $('.mark_confirm').removeClass('mark_confirm');
+                                $(this).addClass('mark_confirm');
+                            }
+                            //在此读出选择日期
+
+                        }
+                    }(days))
                     //判断日期,标注今天
                     if(opts.today && nowObj.year == opts.year && nowObj.month == opts.month && days == opts.date){
                         dowTd.addClass('mark_today');

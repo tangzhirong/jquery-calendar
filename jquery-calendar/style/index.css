@@ -31,17 +31,16 @@ th,td{
 
 /************标注**************/
 .mark_today{
-    background-color: #d9edf7;
-    background-clip:content-box;
-    border-radius: 10px;
+    background-color: #269abc;
 }
 
 .mark_choose{
-    background-color: #d0e9c6;
-    background-clip:content-box;
-    border-radius: 10px;
+    background-color: #d9edf7;
 }
 
+.mark_confirm{
+    background-color: green;
+}
 /**********定制自定义皮肤**********/
 
 .zidingyi_today {
