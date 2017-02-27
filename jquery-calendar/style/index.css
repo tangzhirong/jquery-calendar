@@ -31,7 +31,7 @@ th,td{
 
 /************标注**************/
 .mark_today{
-    background-color: #269abc;
+    background-color:rgb(174,221,129);
 }
 
 .mark_choose{
@@ -39,26 +39,26 @@ th,td{
 }
 
 .mark_confirm{
-    background-color: green;
+    background-color: rgb(174,221,129);
 }
 /**********定制自定义皮肤**********/
 
 .zidingyi_today {
-    background-color: #269abc;
+    background-color:rgb(174,221,129);
     color: white;
 }
 
 .zidingyi_month{
-    background-color: #afd9ee;
+    background-color: rgb(107,194,53);
     color: #080808;
 }
 
 .zidingyi_week{
-    background-color: #269abc;
+    background-color: rgb(174,221,129);
     color: #080808;
 }
 
 .zidingyi_content{
-    background-color: #afd9ee;
+    background-color:rgb(107,194,53);
     color: #080808;
 }
